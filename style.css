@@ -17,6 +17,8 @@ body{
     justify-content: center;
 }
 header {
+    width: 26.5rem;
+    margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -40,6 +42,7 @@ header {
 }
 .div-container {
     display: grid;
+    justify-content: center;
 }
 .div1 {
     padding: 0 24px;
@@ -157,10 +160,16 @@ header {
 .footer-p {
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 26px;
+    font-size: 18px;
+    line-height: 28px;
     color: #7B8BAD;
 
     text-align: center;
     margin: 52px 22px;
+}
+.footer-span {
+    font-weight: 500;
+}
+.footer-line {
+    margin: 0 7px 0 7px;
 }
