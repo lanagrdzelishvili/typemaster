@@ -17,8 +17,8 @@ body{
     justify-content: center;
 }
 header {
-    width: 26.5rem;
-    margin: 0 auto;
+    /* width: 26.5rem; */
+    /* margin: 0 auto; */
     display: flex;
     align-items: center;
     justify-content: space-between;
