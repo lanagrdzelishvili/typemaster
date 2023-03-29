@@ -1,0 +1,111 @@
+@media screen and (min-width: 768px){
+    header {
+        margin-bottom: 60px;
+        padding: 40px;
+    }
+    .mobile-keyboard, .desktop-keyboard, .img1, .img1-desktop, .img2, .img2-desktop {
+        display: none;
+    }
+    .tablet-keyboard, .img1-tablet, .img2-tablet {
+        display: block;
+    }
+    .header-button, .div1-button {
+        width: 175px;
+        height: 58px;
+    }
+    .div1 {
+        padding: 0 24px;
+        margin-bottom: 60px;
+    }
+    .div1-h1 {
+        width: 339px;
+        margin-bottom: 34px;
+    }
+    .div1-p {
+        width: 339px;
+        margin-bottom: 39px;
+    }
+    .div1-button {
+        margin-right: 37px;
+    }
+    .tablet-keyboard {
+        width: 350px;
+        margin-left: 0;
+        border-radius: 18px;
+    }
+
+    .div1-2 {
+        display: flex;
+        
+    }
+    .div3 {
+        display: flex;
+        gap: 30px;
+        margin-bottom: 60px;
+    }
+    .img1-tablet {
+        width: 234px;
+        border-radius: 18px;
+        margin: 0;
+        mix-blend-mode: multiply;
+        opacity: 0.75;
+    
+        background-color: #F16718;
+        filter: contrast(1.4);
+    }
+    .img2-tablet {
+        border-radius: 18px;
+        width: 430px;
+    }
+    .div4, .div5, .div6, .div7, .div8 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        margin-bottom: 48px;
+    }
+    .div4 {
+        flex-direction: row;
+        gap: 40px;
+        margin-bottom: 157px;
+    }
+    .div4-h2 {
+        margin-bottom: 24px;
+        text-align: start;
+    }
+    .div5-p, .div6-p, .div7-p, .div8-p {
+        width: 281px;
+        height: 104px;
+        text-align: start;
+        margin-left: -40px;
+    }
+    .div4-p {
+        width: 398px;
+        height: 78px;
+        text-align: start;
+    }
+    .div5-h3, .div6-h3, .div7-h3, .div8-h3 {
+        width: 327px;
+        height: 56px;
+        margin-bottom: 24px;
+        text-align: start;
+    }
+    .card {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin-bottom: 50px;
+    }
+    .patern {
+        align-self: flex-start;
+        margin-bottom: 40px;
+
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    
+}
