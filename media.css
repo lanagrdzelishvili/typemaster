@@ -1,9 +1,9 @@
 @media screen and (min-width: 768px){
     header {
-        margin-bottom: 60px;
+        margin-bottom: 50px;
         padding: 40px;
     }
-    .mobile-keyboard, .desktop-keyboard, .img1, .img1-desktop, .img2, .img2-desktop {
+    .mobile-keyboard, .desktop-keyboard, .img1, .img1-desktop, .img2, .img2-desktop, .gray1, .gray2  {
         display: none;
     }
     .tablet-keyboard, .img1-tablet, .img2-tablet {
@@ -33,10 +33,10 @@
         margin-left: 0;
         border-radius: 18px;
     }
-
     .div1-2 {
         display: flex;
-        
+        align-items: center;
+        margin-bottom: 50px;
     }
     .div3 {
         display: flex;
@@ -68,7 +68,7 @@
     .div4 {
         flex-direction: row;
         gap: 40px;
-        margin-bottom: 157px;
+        margin-bottom: 120px;
     }
     .div4-h2 {
         margin-bottom: 24px;
@@ -107,5 +107,84 @@
 }
 
 @media screen and (min-width: 1440px) {
-    
+    .mobile-keyboard, .img1, .img2, .tablet-keyboard, .img1-tablet, .img2-tablet {
+        display: none;
+    }
+    .desktop-keyboard, .img1-desktop, .img2-desktop, .gray1,.gray2 {
+        display: block;
+    }
+    header {
+        margin: 70px 165px 80px 165px;
+    }
+    .div1-h1 {
+        width: 445px;
+        margin-bottom: 24px;
+        font-size: 56px;
+        line-height: 56px;
+    }
+    .div1-p {
+        width: 445px;
+        margin-bottom: 39px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .desktop-keyboard {
+        width: 550px;
+        border-radius: 18px;
+        margin-left: 80px;
+        margin-bottom: 30px;
+    }
+    .img1-desktop {
+        width: 330px;
+        height: 550px;
+        border-radius: 18px;
+        margin: 0;
+    }
+    .img2-desktop {
+        border-radius: 18px;
+        width: 430px;
+        height: 550px;
+    }
+    .div1-2 {
+        margin-left: 165px;
+        gap: 30px;
+        margin-bottom: 0;
+    }
+    .gray1 {
+        margin-right: -150px;
+        align-self: flex-start;
+    }
+    .div4 {
+        flex-direction: column;
+        gap: 27px;
+        margin-bottom: 0;
+    }
+    .div3 {
+        margin-right: 100px;
+    }
+    .div3-4 {
+        margin: 0 165px 120px 165px;
+        display: flex;
+    }
+    .gray2 {
+        margin-right: 30px;
+        margin-left: -150px;
+        align-self: flex-end;
+        margin-bottom: 40px;
+    }
+    .div4-p, .div5-p, .div6-p, .div7-p, .div8-p {
+        width: 255px;
+        height: 130px;
+        margin-left: 0px;
+    }
+    .div5-h3, .div6-h3, .div7-h3, .div8-h3 {
+        width: 255px;
+    }
+    .card {
+        gap: 30px;
+        margin-bottom: 100px;
+    }
+    .div4, .div5, .div6, .div7, .div8 {
+        margin-bottom: 0px;
+    }
 }

@@ -10,7 +10,10 @@
 	font: inherit;
 	vertical-align: baseline;
 }
-.tablet-keyboard, .desktop-keyboard, .img1-tablet, .img1-desktop, .img2-tablet, .img2-desktop {
+html {
+    overflow-x: hidden;
+}
+.tablet-keyboard, .desktop-keyboard, .img1-tablet, .img1-desktop, .img2-tablet, .img2-desktop, .gray1, .gray2 {
     display: none;
 }
 body{
