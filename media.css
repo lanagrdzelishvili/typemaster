@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px){
     header {
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         padding: 40px;
     }
     .mobile-keyboard, .desktop-keyboard, .img1, .img1-desktop, .img2, .img2-desktop, .gray1, .gray2  {
@@ -29,14 +29,15 @@
         margin-right: 37px;
     }
     .tablet-keyboard {
-        width: 350px;
-        margin-left: 0;
+        width: 380px;
+        margin-right: -70px;
         border-radius: 18px;
     }
     .div1-2 {
+        gap: 20px;
         display: flex;
         align-items: center;
-        margin-bottom: 50px;
+        margin-bottom: 20px;
     }
     .div3 {
         display: flex;
@@ -128,6 +129,9 @@
         font-size: 18px;
         line-height: 28px;
     }
+    .div1-button {
+        color: white;
+    }
     .desktop-keyboard {
         width: 550px;
         border-radius: 18px;
@@ -147,7 +151,7 @@
     }
     .div1-2 {
         margin-left: 165px;
-        gap: 30px;
+        gap: 35px;
         margin-bottom: 0;
     }
     .gray1 {
@@ -167,10 +171,14 @@
         display: flex;
     }
     .gray2 {
+        width: 140px;
+        height: 250px;
+        background-color: #E8EFF2;
+        border-radius: 0 18px 18px 0;
         margin-right: 30px;
         margin-left: -150px;
         align-self: flex-end;
-        margin-bottom: 40px;
+        margin-bottom: 63px;
     }
     .div4-p, .div5-p, .div6-p, .div7-p, .div8-p {
         width: 255px;
@@ -186,5 +194,15 @@
     }
     .div4, .div5, .div6, .div7, .div8 {
         margin-bottom: 0px;
+    }
+    .header-button:hover {
+        cursor: pointer;
+        background: #162542;
+        color: white;
+        
+    }
+    .div1-button:hover {
+        cursor: pointer;
+        background: #FF9B62;
     }
 }

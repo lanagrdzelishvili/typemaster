@@ -101,14 +101,25 @@ header {
     width: 134px;
     border-radius: 18px;
     margin: 20px 20px 0 -22px;
-    /* background-image: url("assets/mobile/image-phone-and-keyboard.jpg");
-    background-size: contain;
-    background-repeat: no-repeat; */
     mix-blend-mode: multiply;
     opacity: 0.75;
     background-color: #F16718;
     filter: contrast(1.4);
 }
+/* .img-m {
+    width: 134px;
+    height: 200px;
+    border-radius: 18px;
+    margin: 20px 20px 0 -22px;
+    background-image: url("assets/mobile/image-phone-and-keyboard.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    mix-blend-mode: multiply;
+    opacity: 0.75;
+    background-color: #F16718;
+    filter: contrast(1.4);
+} */
 .img2 {
     border-radius: 18px;
     width: 230px;
